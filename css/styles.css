@@ -188,6 +188,17 @@ body {
 
 /* ================ /FOOTER STYLES ================ */
 
+.page-footer {
+  background: #2e2f42;
+}
+
+.accent-color-footer {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
 .footer-text {
   font: 400 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
