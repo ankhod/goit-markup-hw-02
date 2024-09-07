@@ -64,14 +64,9 @@ body {
   color: #404bbf;
 }
 
-.contact-list-mail:hover,
-.contact-list-mail:focus {
+.contact-list-header:hover,
+.contact-list-header:focus {
   color: #404bbf;
-}
-
-.contact-list-tel:hover,
-.contact-list-tel:focus {
-  background-color: #404bbf;
 }
 
 .page-logo {
