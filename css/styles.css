@@ -118,7 +118,7 @@ body {
 
 .order-service-btn:hover,
 .order-service-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* ================ /HERO STYLES ================ */
@@ -126,7 +126,9 @@ body {
 /* ================ /WHAT STYLES ================ */
 
 .what-list-title {
-  font: 500 20px / 1.2 "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
