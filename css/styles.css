@@ -64,6 +64,16 @@ body {
   color: #404bbf;
 }
 
+.contact-list-mail:hover,
+.contact-list-mail:focus {
+  color: #404bbf;
+}
+
+.contact-list-tel:hover,
+.contact-list-tel:focus {
+  background-color: #404bbf;
+}
+
 .page-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -76,9 +86,9 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: -0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ================ /HEADER STYLES ================ */
@@ -131,11 +141,20 @@ body {
 
 /* ================ /TEAM STYLES ================ */
 
+.team-section {
+  background-color: #f4f4fd;
+}
+
 .team-section-title {
-  font: 500 20px / 1.2 "Roboto", sans-serif;
+  font: 500 36px / 1.11 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .team-list-fullname {
