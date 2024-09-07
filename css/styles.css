@@ -14,14 +14,13 @@ button {
 }
 
 body {
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Raleway", sans-serif;
-  color: #111111;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #fff;
 }
 
 .accent-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .section-title {
@@ -45,7 +44,11 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.contact-block {
+  font-style: normal;
 }
 
 .contact-list-item {
@@ -58,17 +61,17 @@ body {
 
 .contact-list-item:hover,
 .contact-list-item:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .page-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .menu-link {
@@ -82,10 +85,14 @@ body {
 
 /* ================ /HERO STYLES ================ */
 
+.hero-section {
+  background-color: #2e2f42;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -97,6 +104,11 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  color: #404bbf;
 }
 
 /* ================ /HERO STYLES ================ */
@@ -119,6 +131,13 @@ body {
 
 /* ================ /TEAM STYLES ================ */
 
+.team-section-title {
+  font: 500 20px / 1.2 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .team-list-fullname {
   font: 500 20px / 1.2 "Roboto", sans-serif;
   letter-spacing: 0.02em;
@@ -136,6 +155,22 @@ body {
 /* ================ /TEAM STYLES ================ */
 
 /* ================ /PORTFOLIO STYLES ================ */
+
+.section-title {
+  font: 700 36px / 1.11 "Roboto", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-section {
+  background-color: #f4f4fd;
+}
+
+.portfolio-list {
+  background-color: #ffffff;
+}
 
 .portfolio-list-title {
   font: 500 20px / 1.2 "Roboto", sans-serif;
